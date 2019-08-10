@@ -1,7 +1,7 @@
 [[contracts-architecture]]
 = Contracts Architecture
 
-OpenZeppelin SDK's features such as upgrades and Ethereum Package linking can be used through the `openzeppelin` CLI. The CLI deploys a https://github.com/OpenZeppelin/openzeppelin-sdk/blob/v2.0.0/packages/lib/contracts/upgradeability/ProxyAdmin.sol[ProxyAdmin] contract for managing your upgradeable instances, and optionally a ProxyFactory to support the `create2` command.
+OpenZeppelin SDK's features such as upgrades and Ethereum Package linking can be used through the `openzeppelin` CLI. The CLI deploys a https://github.com/OpenZeppelin/openzeppelin-sdk/blob/v2.0.0/packages/lib/contracts/application/App.sol[ProxyAdmin] contract for managing your upgradeable instances, and optionally a ProxyFactory to support the `create2` command.
 
 However, some additional smart contracts come into play when you want to publish your Ethereum Package for others to reuse. Publishing is achieved by calling the command:
 

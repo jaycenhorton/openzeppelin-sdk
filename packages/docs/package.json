@@ -31,7 +31,7 @@
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "concurrently": "^4.1.1",
-    "http-server": "^0.11.1",
+    "http-server": "^14.1.1",
     "nodemon": "^1.19.1"
   }
 }
